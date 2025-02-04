@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BribonFiscal1.0", "BribonFiscal1.0\BribonFiscal1.0.csproj", "{4CFE7A0B-5943-41EB-A320-E7CBA6337981}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupBribonFiscal10", "SetupBribonFiscal10\SetupBribonFiscal10.vdproj", "{27080E75-5C6E-4599-A02F-373B159A3A69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CFE7A0B-5943-41EB-A320-E7CBA6337981}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFE7A0B-5943-41EB-A320-E7CBA6337981}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{4CFE7A0B-5943-41EB-A320-E7CBA6337981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFE7A0B-5943-41EB-A320-E7CBA6337981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27080E75-5C6E-4599-A02F-373B159A3A69}.Debug|Any CPU.ActiveCfg = Debug
+		{27080E75-5C6E-4599-A02F-373B159A3A69}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39875048-216F-4786-8ED4-C8D423F973DC}
+	EndGlobalSection
+EndGlobal

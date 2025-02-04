@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\proyectos 2019\\BribonFiscal1.0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|C:\\proyectos 2019\\BribonFiscal1.0\\bribonfiscal1.0\\formularios\\frmassociationsmanual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|solutionrelative:bribonfiscal1.0\\formularios\\frmassociationsmanual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|C:\\proyectos 2019\\BribonFiscal1.0\\bribonfiscal1.0\\formularios\\frmassociationsmanual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|solutionrelative:bribonfiscal1.0\\formularios\\frmassociationsmanual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|c:\\proyectos 2019\\bribonfiscal1.0\\bribonfiscal1.0\\clases\\config\\variablessesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|solutionrelative:bribonfiscal1.0\\clases\\config\\variablessesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|c:\\proyectos 2019\\bribonfiscal1.0\\bribonfiscal1.0\\formularios\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|solutionrelative:bribonfiscal1.0\\formularios\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|C:\\proyectos 2019\\BribonFiscal1.0\\bribonfiscal1.0\\formularios\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|solutionrelative:bribonfiscal1.0\\formularios\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|C:\\proyectos 2019\\BribonFiscal1.0\\bribonfiscal1.0\\formularios\\frmassociations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|solutionrelative:bribonfiscal1.0\\formularios\\frmassociations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|C:\\proyectos 2019\\BribonFiscal1.0\\bribonfiscal1.0\\formularios\\frmassociations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|solutionrelative:bribonfiscal1.0\\formularios\\frmassociations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|C:\\proyectos 2019\\BribonFiscal1.0\\bribonfiscal1.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|solutionrelative:bribonfiscal1.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|C:\\proyectos 2019\\BribonFiscal1.0\\bribonfiscal1.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CFE7A0B-5943-41EB-A320-E7CBA6337981}|BribonFiscal1.0\\BribonFiscal1.0.csproj|solutionrelative:bribonfiscal1.0\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 222,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VariablesSesion.cs",
+              "DocumentMoniker": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Clases\\Config\\VariablesSesion.cs",
+              "RelativeDocumentMoniker": "BribonFiscal1.0\\Clases\\Config\\VariablesSesion.cs",
+              "ToolTip": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Clases\\Config\\VariablesSesion.cs",
+              "RelativeToolTip": "BribonFiscal1.0\\Clases\\Config\\VariablesSesion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T23:09:30.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmProveedores.cs",
+              "DocumentMoniker": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmProveedores.cs",
+              "RelativeDocumentMoniker": "BribonFiscal1.0\\Formularios\\FrmProveedores.cs",
+              "ToolTip": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmProveedores.cs",
+              "RelativeToolTip": "BribonFiscal1.0\\Formularios\\FrmProveedores.cs",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAvwL8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:10:36.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmProveedores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmProveedores.cs",
+              "RelativeDocumentMoniker": "BribonFiscal1.0\\Formularios\\FrmProveedores.cs",
+              "ToolTip": "C:\\Users\\crisr\\Music\\VS2022\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmProveedores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Users\\crisr\\Music\\VS2022\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmProveedores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-11-21T22:10:36.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmAssociations.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmAssociations.cs",
+              "RelativeDocumentMoniker": "BribonFiscal1.0\\Formularios\\FrmAssociations.cs",
+              "ToolTip": "C:\\Users\\crisr\\Music\\VS2022\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmAssociations.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Users\\crisr\\Music\\VS2022\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmAssociations.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-11-21T22:10:36.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmAssociations.cs",
+              "DocumentMoniker": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmAssociations.cs",
+              "RelativeDocumentMoniker": "BribonFiscal1.0\\Formularios\\FrmAssociations.cs",
+              "ToolTip": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmAssociations.cs",
+              "RelativeToolTip": "BribonFiscal1.0\\Formularios\\FrmAssociations.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAvwFgAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-11-21T22:10:36.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmAssociationsManual.cs",
+              "DocumentMoniker": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmAssociationsManual.cs",
+              "RelativeDocumentMoniker": "BribonFiscal1.0\\Formularios\\FrmAssociationsManual.cs",
+              "ToolTip": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmAssociationsManual.cs",
+              "RelativeToolTip": "BribonFiscal1.0\\Formularios\\FrmAssociationsManual.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAxwMEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:10:36.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmAssociationsManual.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmAssociationsManual.cs",
+              "RelativeDocumentMoniker": "BribonFiscal1.0\\Formularios\\FrmAssociationsManual.cs",
+              "ToolTip": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Formularios\\FrmAssociationsManual.cs [Dise\u00F1o]",
+              "RelativeToolTip": "BribonFiscal1.0\\Formularios\\FrmAssociationsManual.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:10:36.295Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Form1.cs",
+              "RelativeDocumentMoniker": "BribonFiscal1.0\\Form1.cs",
+              "ToolTip": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Form1.cs",
+              "RelativeToolTip": "BribonFiscal1.0\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-11-21T22:10:36.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\proyectos 2019\\BribonFiscal1.0\\BribonFiscal1.0\\Form1.cs",
+              "RelativeDocumentMoniker": "BribonFiscal1.0\\Form1.cs",
+              "ToolTip": "C:\\Users\\crisr\\Music\\VS2022\\BribonFiscal1.0\\BribonFiscal1.0\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Users\\crisr\\Music\\VS2022\\BribonFiscal1.0\\BribonFiscal1.0\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-11-21T22:10:36.298Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
