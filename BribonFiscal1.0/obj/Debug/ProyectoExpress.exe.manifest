@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="ProyectoExpress.exe" version="1.0.0.9" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="ProyectoExpress.exe" version="1.0.0.16" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="LogoBribonFiscal.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="ProyectoExpress" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="ProyectoExpress" version="1.0.0.0" publicKeyToken="1FEC91A20EC21F8F" language="neutral" processorArchitecture="msil" />
     <commandLine file="ProyectoExpress.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -128,14 +129,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProyectoExpress.exe" size="72104">
-      <assemblyIdentity name="ProyectoExpress" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProyectoExpress.exe" size="108456">
+      <assemblyIdentity name="ProyectoExpress" version="1.0.0.0" publicKeyToken="1FEC91A20EC21F8F" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Z2rYOUwO8N9RiOevltI7xiZ7CFHlS1GaaYNCAi4rIc4=</dsig:DigestValue>
+        <dsig:DigestValue>My6iTELhLaEYki18xA8FOt2zRko3w0/b+k7TWU531dA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -247,6 +248,15 @@
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="LogoBribonFiscal.ico" size="9404">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jPoEJyL2vIUxaAr/A8D0TMiRa4JBrixlNqlZpZpmkqA=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="ProyectoExpress.exe.config" size="802">
     <hash>
       <dsig:Transforms>

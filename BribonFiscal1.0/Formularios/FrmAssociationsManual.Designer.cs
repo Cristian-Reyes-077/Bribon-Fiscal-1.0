@@ -43,9 +43,11 @@
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button3 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -61,8 +63,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.label12 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.eliminarVinculoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel4.SuspendLayout();
@@ -115,6 +117,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(737, 25);
             this.textBox1.TabIndex = 9;
+            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
             // groupBox1
             // 
@@ -251,6 +254,7 @@
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel3.Controls.Add(this.label11);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.dataGridView3);
             this.panel3.Location = new System.Drawing.Point(13, 532);
@@ -258,6 +262,17 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1052, 306);
             this.panel3.TabIndex = 2;
+            // 
+            // label11
+            // 
+            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.label11.Location = new System.Drawing.Point(3, 284);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(548, 21);
+            this.label11.TabIndex = 11;
+            this.label11.Text = "Total filas: 00";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label9
             // 
@@ -303,6 +318,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1052, 366);
             this.panel2.TabIndex = 1;
+            // 
+            // label10
+            // 
+            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.label10.Location = new System.Drawing.Point(501, 344);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(548, 21);
+            this.label10.TabIndex = 10;
+            this.label10.Text = "Total filas: 00";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // groupBox3
             // 
@@ -479,7 +505,7 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(494, 683);
+            this.dataGridView1.Size = new System.Drawing.Size(494, 665);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
@@ -493,6 +519,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.label12);
             this.splitContainer1.Panel1.Controls.Add(this.groupBox1);
             this.splitContainer1.Panel1.Controls.Add(this.dataGridView1);
             // 
@@ -505,6 +532,17 @@
             this.splitContainer1.Size = new System.Drawing.Size(1598, 898);
             this.splitContainer1.SplitterDistance = 520;
             this.splitContainer1.TabIndex = 1;
+            // 
+            // label12
+            // 
+            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.label12.Location = new System.Drawing.Point(208, 870);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(298, 20);
+            this.label12.TabIndex = 11;
+            this.label12.Text = "Total filas: 00";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // button4
             // 
@@ -520,29 +558,18 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // label10
-            // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.label10.Location = new System.Drawing.Point(501, 344);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(548, 21);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "Total filas: 100";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.eliminarVinculoToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 56);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(186, 28);
             // 
             // eliminarVinculoToolStripMenuItem
             // 
             this.eliminarVinculoToolStripMenuItem.Name = "eliminarVinculoToolStripMenuItem";
-            this.eliminarVinculoToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.eliminarVinculoToolStripMenuItem.Size = new System.Drawing.Size(185, 24);
             this.eliminarVinculoToolStripMenuItem.Text = "Eliminar Vinculo";
             this.eliminarVinculoToolStripMenuItem.Click += new System.EventHandler(this.eliminarVinculoToolStripMenuItem_Click);
             // 
@@ -618,5 +645,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem eliminarVinculoToolStripMenuItem;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
     }
 }

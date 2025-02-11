@@ -48,3 +48,5 @@ C:\Users\crisr\Music\VS2022\BribonFiscal1.0\BribonFiscal1.0\obj\Release\Proyecto
 C:\Users\crisr\Music\VS2022\BribonFiscal1.0\BribonFiscal1.0\obj\Release\BribonFiscal1.0.csproj.CopyComplete
 C:\Users\crisr\Music\VS2022\BribonFiscal1.0\BribonFiscal1.0\obj\Release\ProyectoExpress.exe
 C:\Users\crisr\Music\VS2022\BribonFiscal1.0\BribonFiscal1.0\obj\Release\ProyectoExpress.pdb
+C:\Users\crisr\Music\VS2022\BribonFiscal1.0\BribonFiscal1.0\obj\Release\ProyectoExpress.Formularios.FrmAssociationsDepositosVarios.resources
+C:\Users\crisr\Music\VS2022\BribonFiscal1.0\BribonFiscal1.0\obj\Release\ProyectoExpress.Formularios.FrmAssociationsReposicionCaja.resources

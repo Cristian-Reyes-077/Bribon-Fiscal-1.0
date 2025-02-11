@@ -14,14 +14,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ProyectoExpress.exe.manifest" size="16481">
+    <dependentAssembly dependencyType="install" codebase="ProyectoExpress.exe.manifest" size="16482">
       <assemblyIdentity name="ProyectoExpress.exe" version="1.0.0.15" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wiFOmFw8r5Ned6B7so4iM6XHGBByFTisglUzalREXiA=</dsig:DigestValue>
+        <dsig:DigestValue>aQx5+f8oW+5XZp3r9xgVhxCnt169H/ejvifMk9QO+5Y=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

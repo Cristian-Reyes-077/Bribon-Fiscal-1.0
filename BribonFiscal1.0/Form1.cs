@@ -58,6 +58,15 @@ namespace ProyectoExpress
         {
             if (MySqlFunciones.conectar_mysql())
             {
+                // Restaurar el color de todos los botones
+                button2.BackColor = SystemColors.Control;
+                button3.BackColor = SystemColors.Control;
+                button4.BackColor = SystemColors.Control;
+                button5.BackColor = SystemColors.Control;
+
+                // Cambiar el color del botón presionado a verde
+                ((Button)sender).BackColor = Color.FromArgb(0, 204, 102); // Verde personalizado
+
                 panel1.Controls.Clear();
                FrmAssociations frm = new FrmAssociations
                 {
@@ -66,6 +75,8 @@ namespace ProyectoExpress
                 };
                 panel1.Controls.Add(frm);
                 frm.Show();
+
+
             }
         }
 
@@ -73,8 +84,43 @@ namespace ProyectoExpress
         {
             if (MySqlFunciones.conectar_mysql())
             {
+                // Restaurar el color de todos los botones
+                button1.BackColor = SystemColors.Control;
+                button3.BackColor = SystemColors.Control;
+                button4.BackColor = SystemColors.Control;
+                button5.BackColor = SystemColors.Control;
+
+                // Cambiar el color del botón presionado a verde
+                ((Button)sender).BackColor = Color.FromArgb(0,204,102);
+
                 panel1.Controls.Clear();
                 FrmAssociationsManual frm = new FrmAssociationsManual
+                {
+                    TopLevel = false,
+                    Dock = DockStyle.Fill,
+                };
+                panel1.Controls.Add(frm);
+                frm.Show();
+
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (MySqlFunciones.conectar_mysql())
+            {
+                // Restaurar el color de todos los botones
+                button1.BackColor = SystemColors.Control;
+                button2.BackColor = SystemColors.Control;
+                 button4.BackColor = SystemColors.Control;
+                button5.BackColor = SystemColors.Control;
+
+                // Cambiar el color del botón presionado a verde
+                ((Button)sender).BackColor = Color.FromArgb(0, 204, 102); // Verde personalizado
+
+
+                panel1.Controls.Clear();
+                FrmProveedores frm = new FrmProveedores
                 {
                     TopLevel = false,
                     Dock = DockStyle.Fill,
@@ -84,12 +130,47 @@ namespace ProyectoExpress
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
             if (MySqlFunciones.conectar_mysql())
             {
+                // Restaurar el color de todos los botones
+                button1.BackColor = SystemColors.Control;
+                button2.BackColor = SystemColors.Control;
+                button3.BackColor = SystemColors.Control;
+                button5.BackColor = SystemColors.Control;
+
+                // Cambiar el color del botón presionado a verde
+                ((Button)sender).BackColor = Color.FromArgb(0, 204, 102); // Verde personalizado
+
+
                 panel1.Controls.Clear();
-                FrmProveedores frm = new FrmProveedores
+                FrmAssociationsReposicionCaja frm = new FrmAssociationsReposicionCaja
+                {
+                    TopLevel = false,
+                    Dock = DockStyle.Fill,
+                };
+                panel1.Controls.Add(frm);
+                frm.Show();
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (MySqlFunciones.conectar_mysql())
+            {
+                // Restaurar el color de todos los botones
+                button1.BackColor = SystemColors.Control;
+                button2.BackColor = SystemColors.Control;
+                button3.BackColor = SystemColors.Control;
+                button4.BackColor = SystemColors.Control;
+                
+                // Cambiar el color del botón presionado a verde
+                ((Button)sender).BackColor = Color.FromArgb(0, 204, 102); // Verde personalizado
+
+
+                panel1.Controls.Clear();
+                FrmAssociationsDepositosVarios frm = new FrmAssociationsDepositosVarios
                 {
                     TopLevel = false,
                     Dock = DockStyle.Fill,

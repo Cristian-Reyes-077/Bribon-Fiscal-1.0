@@ -70,21 +70,24 @@ namespace ProyectoExpress.Clases.Generales
 
                 // Guardar el archivo
                 workbook.SaveAs(rutaArchivo);
-                MessageBox.Show("Datos exportados exitosamente.", "Éxito");
+                MessageBox.Show("Datos exportados exitosamente.", "RENOVATIO PyME");
+                //    // Liberar recursos
+                  workbook.Close();
+                //    excelApp.Quit();
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ocurrió un error al exportar: {ex.Message}", "Error");
+                MessageBox.Show($"Ocurrió un error al exportar: {ex.Message}", "RENOVATIO PyME");
             }
-            finally
-            {
-                // Liberar recursos
-                workbook.Close();
-                excelApp.Quit();
+            //finally
+            //{
+            //    // Liberar recursos
+            //    workbook.Close();
+            //    excelApp.Quit();
 
-                System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
-                System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
-            }
+            //    System.Runtime.InteropServices.Marshal.ReleaseComObject(workbook);
+            //    System.Runtime.InteropServices.Marshal.ReleaseComObject(excelApp);
+            //}
         }
     }
 }

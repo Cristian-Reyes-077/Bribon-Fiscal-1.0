@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -84,6 +85,7 @@ namespace ProyectoExpress.Formularios
                 this.dataGridView1.DataSource = dt;
                 this.dataGridView1.Columns["estado_cta_bancaria_det_id"].Visible = false;
                 this.panel1.Enabled = true;
+                this.label12.Text = $"Total filas: {dataGridView1.Rows.Count.ToString()}";
             }
         }
 
@@ -156,13 +158,17 @@ namespace ProyectoExpress.Formularios
             if (!MySqlFunciones.consulta_entabla_mysql(query, dt))
                 MessageBox.Show("Error: " + MySqlFunciones.ultimo_error_Mysql, "Renovatio Pyme");
             else
+            {
                 this.dataGridView3.DataSource = dt;
+                this.label5.Text = $"Total filas: {dataGridView3.Rows.Count.ToString()}";
+            }
         }
 
         private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             // Verificar si hay filas seleccionadas
-            if (dataGridView1.SelectedRows.Count > 0)
+            //if (dataGridView1.SelectedRows.Count > 0)
+            if (dataGridView3.SelectedRows.Count > 0)
             {
                 uuidLista = new List<String>();
 
@@ -299,6 +305,47 @@ namespace ProyectoExpress.Formularios
                 MessageBox.Show("Error: " + MySqlFunciones.ultimo_error_Mysql, "Renovatio Pyme");
             else
                 ActBacosAux();
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            string input = textBox1.Text.Trim();
+
+            if (string.IsNullOrEmpty(input)) return; // si esta vacio no hace ni madres
+
+            // exprecion para validar uuids
+            string uuidPattern = @"^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$";
+
+
+            // dividir por ; ya que se pueden agregar varios
+            string[] uuids = input.Split(';')
+                                    .Select(u => u.Trim()) // limpiar espacios entre cada uuid
+                                    .Where(u => !string.IsNullOrEmpty(u)) // elimina los uids vacios
+                                    .ToArray();
+
+            List<string> uuidTemp = new List<string> ();
+
+            for (int i = 0; i < uuids.Length; i++)
+            {
+                uuids[i] = uuids[i].Trim(); // pa eliminar espacios
+
+                if (!Regex.IsMatch(uuids[i], uuidPattern)) // validar formato
+                {
+                    MessageBox.Show($"UUID inválido: {uuids[i]}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    textBox1.Text = ""; // limpiar el TextBox si hay error
+                    return;
+                }
+
+                uuidTemp.Add(uuids[i]);
+            }
+
+            // si todos los UUIDs son válidos, se actualiza el formatop
+            textBox1.Text = string.Join("; ", uuids);
+
+            // lo agregamos a la lista para agregar
+            uuidLista = new List<String>();
+            uuidLista.AddRange(uuidTemp.Distinct()); //disctinct pa evitar duplicados
+
         }
     }
 }

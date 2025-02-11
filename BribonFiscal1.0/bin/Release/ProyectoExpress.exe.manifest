@@ -129,14 +129,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProyectoExpress.exe" size="79784">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProyectoExpress.exe" size="102824">
       <assemblyIdentity name="ProyectoExpress" version="1.0.0.0" publicKeyToken="1FEC91A20EC21F8F" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>F9g4iwz1dL5radak2qRxGKpI2UDRVLB2T1ccnrNAXTE=</dsig:DigestValue>
+        <dsig:DigestValue>+ou5GxWUePj11CvWdZl+UFidEAaNYglTU4oXGE8Xlcc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
